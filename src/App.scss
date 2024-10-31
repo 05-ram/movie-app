@@ -2,18 +2,19 @@
 @import "./common//colors.scss";
 
 * {
-    margin: 0;
-    padding: 0;
+    margin    : 0;
+    padding   : 0;
     box-sizing: border-box
 }
 
 body {
-    font-family: 'Lora-Regular';
+    font-family     : 'Lora-Regular';
     background-color: $primary-color;
 }
 
 .container {
-    padding: 8px 40px;
-    height: calc(100vh - 120px);
+    padding   : 8px 40px;
+    height    : calc(100vh - 120px);
     overflow-y: auto;
+    overflow-x: hidden;
 }
